@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    
+    height: 100vh;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+    text-align: center;
+
+}
+nav ul li{
+    margin-right: 20px;
+    color: rgb(209, 51, 51);
+    display: inline;
+    
+
+}
+
+nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
